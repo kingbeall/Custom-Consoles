@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Consoles</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto+Mono&display=swap');
+
+    :root {
+      --bg: #0f0f0f;
+      --fg: #e0e0e0;
+      --accent: #00ffcc;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--accent);
+      font-size: 2rem;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: var(--fg);
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: var(--accent);
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 1rem;
+    }
+
+    .build {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-left: 4px solid var(--accent);
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+
+    .testimonial .author {
+      margin-top: 0.5rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Custom Consoles</h1>
+    <nav>
+      <a href="#builds">Past Builds</a>
+      <a href="#reviews">Client Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="builds">
+      <h2>Past Builds for Lucky Clients</h2>
+
+      <div class="build">
+        <h3>🧬 Hybrid PC – "The Modular Nomad"</h3>
+        <p>Built for a tech-savvy freelancer needing versatility, stealth wiring, and Linux-friendly workflows.</p>
+      </div>
+
+      <div class="build">
+        <h3>🎮 Gaming PC – "The Frame Slayer"</h3>
+        <p>Delivered to a competitive gamer who wanted max frames, RGB glory, and zero bottlenecks.</p>
+      </div>
+
+      <div class="build">
+        <h3>🧾 Office PC – "The Quiet Operator"</h3>
+        <p>Designed for a remote worker needing silent performance, dual-monitor support, and rock-solid uptime.</p>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <h2>Client Reviews</h2>
+
+      <div class="testimonial">
+        <p>"Custom Consoles rebuilt my laptop into a stealth machine. Fast, secure, and slick."</p>
+        <p class="author">— Jasmine R., Asheville, NC</p>
+      </div>
+
+      <div class="testimonial">
+        <p>"My gaming rig is an absolute beast. Ultra settings, zero lag. Custom Consoles nailed it."</p>
+        <p class="author">— Marcus T., Charlotte, NC</p>
+      </div>
+
+      <div class="testimonial">
+        <p>"Hybrid PC is perfect for my dev work. Dual-boot, smart monitoring, and silent fans."</p>
+        <p class="author">— Lena M., Oregon</p>
+      </div>
+
+      <div class="testimonial">
+        <p>"Office PC runs like a tank. Quiet, fast, and reliable. Custom Consoles builds to last."</p>
+        <p class="author">— Derek S., Small Business Owner</p>
+      </div>
+
+      <div class="testimonial">
+        <p>"Needed power for 3D rendering—got precision and RGB fire. Love it."</p>
+        <p class="author">— Tasha V., Digital Artist</p>
+      </div>
+
+      <div class="testimonial">
+        <p>"Encrypted storage, lockout triggers, remote access—this guy thinks like a hacker."</p>
+        <p class="author">— Eli G., Security Consultant</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@customconsoles.com">info@customconsoles.com</a></p>
+      <p>Phone: (555) 987-6543</p>
+      <p>Location: Asheville, NC</p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Custom Consoles. All rights reserved.
+  </footer>
+
+</body>
+</html>
